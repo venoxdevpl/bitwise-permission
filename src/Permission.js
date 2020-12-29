@@ -41,7 +41,7 @@ class Permission {
     for (const el in perms) {
       int = int + this._permissions[perms[el]];
     }
-    return int
+    return int;
   }
 
   /**

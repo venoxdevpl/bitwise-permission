@@ -55,8 +55,6 @@ class Permission {
     const targetPermission = `0x${this._permissions[permission].toString(16)}`;
     const pUser = `0x${user.toString(16)}`;
 
-    console.log(pUser, targetPermission);
-
     if ((pUser & targetPermission) == targetPermission) {
       return true;
     }

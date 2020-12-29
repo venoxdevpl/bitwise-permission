@@ -1,6 +1,6 @@
 {
   "name": "bitwise-permission",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A secure, simple, reliable permission system based on bitwise.",
   "main": "index.js",
   "scripts": {
